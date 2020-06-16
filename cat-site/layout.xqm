@@ -147,18 +147,7 @@ declare function layout:page-footer($mode as xs:string) as node()
 {
   let $footer :=
   <div id="footer" style="text-align: center; height: auto; padding: 10px 20px;">
-    <a href="http://www.kb.dk/en/nb/dcm" title="DCM" 
-    style="text-decoration:none;"><img 
-    style="border: 0px; vertical-align:middle;" 
-    alt="DCM Logo" 
-    src="style/images/dcm_logo_small_white.png"
-    id="dcm_logo"/><img 
-    style="border: 0px; vertical-align:middle;" 
-    alt="DCM Logo" 
-    src="style/images/dcm_logo_small.png"
-    id="dcm_logo_print"
-    /></a>
-    2014–2018 Danish Centre for Music Editing | Royal Danish Library | P.O. Box 2149 | Copenhagen K, Denmark | <a name="www.kb.dk" id="www.kb.dk" href="http://www.kb.dk/en/nb/dcm/">www.kb.dk/en/nb/dcm/</a> 
+    2019 Hochschule der Künste Bern – Institut Interpretation <a name="www.hkb-interpretation.ch" id="www.hkb-interpretation.ch" href="http://www.hkb-interpretation.ch">http://www.hkb-interpretation.ch/</a>
   </div>
 
   return $footer
